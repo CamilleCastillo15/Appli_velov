@@ -39,7 +39,7 @@
                                 <connections>
                                     <outlet property="ImageView" destination="tF4-oD-24z" id="Tmj-bQ-9g5"/>
                                     <outlet property="Label1" destination="lKW-CY-Hrz" id="sHX-oi-anU"/>
-                                    <segue destination="LQ9-HU-Jaz" kind="push" identifier="showDetails" id="qYo-A3-zyp"/>
+                                    <segue destination="LQ9-HU-Jaz" kind="push" identifier="showDetails" id="Qk0-Yh-hA6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="606.5" y="230.5"/>
         </scene>
-        <!--View Controller2-->
+        <!--View Controller Details-->
         <scene sceneID="5A5-jg-PGS">
             <objects>
-                <viewController id="LQ9-HU-Jaz" customClass="ViewController2" customModule="Table" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LQ9-HU-Jaz" customClass="ViewControllerDetails" customModule="Table" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4jv-TU-zXl"/>
                         <viewControllerLayoutGuide type="bottom" id="2Y0-5h-AvL"/>
@@ -110,16 +110,6 @@
                                 <color key="textColor" red="0.78431372549019607" green="0.12156862745098039" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2L-X7-ZCP">
-                                <rect key="frame" x="126" y="371" width="200" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="2Q8-bQ-Cdc"/>
-                                    <constraint firstAttribute="width" constant="200" id="vZO-ZN-AAy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="details_banner" translatesAutoresizingMaskIntoConstraints="NO" id="zSE-wx-WB4">
                                 <rect key="frame" x="0.0" y="64" width="375" height="139"/>
                             </imageView>
@@ -133,16 +123,25 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2L-X7-ZCP">
+                                <rect key="frame" x="126" y="371" width="200" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="2Q8-bQ-Cdc"/>
+                                    <constraint firstAttribute="width" constant="200" id="vZO-ZN-AAy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.94117647058823528" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="cVf-zt-2oA"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="ImageView2" destination="Yco-GY-CzV" id="epE-gG-HqP"/>
-                        <outlet property="Label3" destination="dzM-Hs-S5l" id="bz3-gU-4Rw"/>
-                        <outlet property="Label4" destination="T2L-X7-ZCP" id="Mg1-gB-zJO"/>
-                        <outlet property="adresse" destination="LBf-bV-2zG" id="ZRW-xK-wb1"/>
+                        <outlet property="adresseLabel" destination="LBf-bV-2zG" id="ha3-cX-D9H"/>
+                        <outlet property="nomLabel" destination="dzM-Hs-S5l" id="9vL-kN-iEP"/>
+                        <outlet property="statutLabel" destination="T2L-X7-ZCP" id="zTE-R9-CMu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5F-Vf-hMA" userLabel="First Responder" sceneMemberID="firstResponder"/>

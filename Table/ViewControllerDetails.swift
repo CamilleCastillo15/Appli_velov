@@ -10,10 +10,21 @@ import UIKit
 
 class ViewControllerDetails: UIViewController {
 
+    @IBOutlet weak var nomLabel: UILabel!
+    @IBOutlet weak var adresseLabel: UILabel!
+    @IBOutlet weak var statutLabel: UILabel!
+    
+    var detailInfos:[String]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        nomLabel.text = detailInfos[0]
+        adresseLabel.text = detailInfos[1]
+        statutLabel.text = detailInfos[2]
+        
     }
 
     override func didReceiveMemoryWarning() {

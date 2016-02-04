@@ -122,7 +122,7 @@ class TableViewController: UITableViewController {
       
         if segue.identifier == "showDetails" {
             
-           let detailView = segue.destinationViewController as! ViewController2
+           let detailView = segue.destinationViewController as! ViewControllerDetails
             
             let indexPath: NSIndexPath = tableView.indexPathForSelectedRow!
             

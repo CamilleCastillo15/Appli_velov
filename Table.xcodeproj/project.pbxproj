@@ -19,7 +19,6 @@
 		AEA71ACF1C4E66CC002B4CFB /* TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA71ACE1C4E66CC002B4CFB /* TableUITests.swift */; };
 		AEA71ADD1C4E6876002B4CFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA71ADC1C4E6876002B4CFB /* TableViewController.swift */; };
 		AEA71ADF1C4E7071002B4CFB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA71ADE1C4E7070002B4CFB /* TableViewCell.swift */; };
-		AEA71AE11C4E79D2002B4CFB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA71AE01C4E79D2002B4CFB /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		AEA71AD01C4E66CC002B4CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA71ADC1C4E6876002B4CFB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AEA71ADE1C4E7070002B4CFB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		AEA71AE01C4E79D2002B4CFB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				AEA71AAE1C4E66CB002B4CFB /* AppDelegate.swift */,
 				AEA71AB01C4E66CB002B4CFB /* ViewController.swift */,
 				AEA71AB21C4E66CB002B4CFB /* Main.storyboard */,
-				AEA71AE01C4E79D2002B4CFB /* ViewController2.swift */,
 				91BC18C71C4F06070089B3D6 /* SwiftyJSON.swift */,
 				AEA71ADE1C4E7070002B4CFB /* TableViewCell.swift */,
 				AEA71ADC1C4E6876002B4CFB /* TableViewController.swift */,
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE23D8A21C5E92A6005FD99A /* SplashScreen.swift in Sources */,
-				AEA71AE11C4E79D2002B4CFB /* ViewController2.swift in Sources */,
 				AEA71AB11C4E66CB002B4CFB /* ViewController.swift in Sources */,
 				AE4E12EE1C6354E6005E1571 /* ViewControllerDetails.swift in Sources */,
 				AEA71ADF1C4E7071002B4CFB /* TableViewCell.swift in Sources */,
